@@ -23,3 +23,14 @@ int main()
         printf("%d ", arr[i]);
     return 0;
 }
+ALGORITHM
+Step1:Make a variable (say min_index) and initialize it to the location 0 of the array.
+Step2:Traverse the whole array to find the smallest element in the array.
+Step3:While traversing the array, if we find an element that is smaller than min_index then swap both these elements.
+Step4:After which, increase the min_index by 1 so that it points to the next element of the array.
+Step5:Repeat the above process until the whole array is sorted.
+
+TIME COMPLEXITY
+Best Case:O(n2)
+Average Case:O(n2)
+Worst Case:O(n2)
