@@ -21,3 +21,12 @@ int main()
 	printf("GCD(%d, %d) = %d\n", a, b, gcd(a, b));
 	return 0;
 }
+ALGORITHM
+Step1:Take two numbers as input.
+Step2:Find the greater of the two numbers.
+Step3:Keep on dividing the greater number by the smaller number until remainder becomes 0.
+Step4:When the remainder becomes 0 print the smaller number i.e., the denominator as the output.
+Step5:Exit
+
+TIME COMPLEXITY
+Time Complexity: O(min(a, b))
